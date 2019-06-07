@@ -1,0 +1,34 @@
+Bug 1: Campo "TOTAL BRUTO DAS IMPORTAÇÕES" exibe valor incorreto
+O campo "TOTAL BRUTO DAS IMPORTAÇÕES" exibe o valor "0,00" não considerando os valores das importações anteriores nem os valores da importação atual.
+
+Bug 2: Ausência do identificador monetário "R$" no campo "TOTAL BRUTO DAS IMPORTAÇÕES"
+Label exibida como "0,00", não exibindo o dado correspondente à moeda local no formato "R$ xx,xx".
+
+Bug 3: Palavra "Comprador" escrita sem a consoante "r"
+No título da coluna "Comprador" a palavra está escrita sem o "r".
+
+Bug 4: Palavra "Preço" escrita sem a letra "ç"
+No título da coluna "Preço" a palavra está escrita com a letra "c" ao invés da letra "ç".
+
+Bug 5: Inserir quebra de linha no título da coluna "Nome vendendor"
+
+Bug 6: Manter alinhamento "Centralizado" para todos os títulos
+
+Bug 7: Conteúdo das colunas "Nome vendedor" e "Endereço vendedor" trocados
+As informações exibidas na coluna "Nome vendedor" são do endereço e o mesmo acontece com as informações da coluna "Endereço vendedor", são exibidos os nomes.
+
+Bug 8: Conteúdo das colunas "Qtde." e "Total" trocados
+As informações exibidas na coluna "Qtde." são do total de itens selecionados e o mesmo acontece com as informações da coluna "Total", são exibidas as quantidades de itens selecionados.
+
+Bug 9: Coluna "Total" exibindo cálculo incorreto
+A coluna "Total" não está exibindo o cálculo corretamente dos dados contidos nas colunas "Valor" e "Qtde.", considerando a equação "Valor" x "Qtde."
+
+Bug 10: Campos "TOTAL BRUTO DAS IMPORTAÇÕES", "TOTAL BRUTO DA IMPORTAÇÃO" e "IMPORTAÇÃO" em caixa alta
+Alterar a formatação de escrita dos termos acima. É visualmente desconfortável
+
+Bug 11: Campo "TOTAL BRUTO DA IMPORTAÇÃO" exibindo cálculo incorreto
+O cálculo realizado não está refletindo o valor correto. Está exibindo "R$96,00", mas o correto deveria ser (10 x 4 + 10 x 10 + 5 x 2 + 5 x 8) "R$190,00".
+
+Oportunidade de Melhoria 1: Não inserir pontuação nos títulos
+A palavra "Qtde." está com um ponto final. Sugestão: manter apenas a palavra abreviada "Qtde"
+
